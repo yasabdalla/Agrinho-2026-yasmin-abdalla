@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoIrriga - Agroforte e Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">🌿 EcoIrriga</div>
+        <nav>
+            <ul>
+                <li><a href="#projeto">O Projeto</a></li>
+                <li><a href="#dashboard">Painel de Controle</a></li>
+                <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="projeto" class="hero">
+            <h1>Agroforte, Futuro Sustentável</h1>
+            <p>Equilíbrio perfeito entre alta produção agrícola e preservação do meio ambiente através da irrigação inteligente.</p>
+        </section>
+
+        <section id="dashboard" class="dashboard-section">
+            <h2>Painel de Monitoramento em Tempo Real</h2>
+            <p>Simule as condições do solo para entender como a tecnologia economiza água.</p>
+            
+            <div class="controls">
+                <button id="btn-sol">Simular Dia Ensolarado (Solo Secando)</button>
+                <button id="btn-regar">Acionar Irrigação Inteligente</button>
+            </div>
+
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Umidade do Solo</h3>
+                    <p id="txt-umidade" class="dado">45%</p>
+                    <p id="status-solo" class="status alerta">Atenção: Solo Secando</p>
+                </div>
+                <div class="card">
+                    <h3>Status do Sistema</h3>
+                    <p id="status-sistema" class="dado desligado">Desligado</p>
+                </div>
+                <div class="card">
+                    <h3>Água Economizada</h3>
+                    <p id="txt-economia" class="dado verde">0 Litros</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sustentabilidade" class="info-section">
+            <h2>O Impacto no Meio Ambiente</h2>
+            <p>Utilizar sensores de umidade impede o desperdício de recursos hídricos, evita a lixiviação do solo e garante que a planta receba exatamente o que precisa para produzir mais. Isso é o Agroforte!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Projeto Agrinho - Desenvolvido para um Futuro Sustentável</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
